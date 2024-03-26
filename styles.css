@@ -1,0 +1,37 @@
+body {
+    margin: 20px;
+    font-family: Georgia, serif;
+}
+
+.avatar {
+    width: 150px;
+    border: 5px solid #FED766;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #696773;
+}
+
+.avatar:hover{
+    transform: scale(1.1);
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #009FB7;
+    color: #EFF1F3;
+    border: 5px solid #272727;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: #696773;
+}
+
+.border-blue {
+    border: 12px dotted #696773;
+}
+
