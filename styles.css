@@ -1,6 +1,7 @@
 body {
     margin: 20px;
-    font-family: Georgia, serif;
+    font-family: "Helvetica Neue";
+    background: #EFF1F3
 }
 
 .avatar {
@@ -15,9 +16,9 @@ body {
 }
 
 .card {
-    width: 400px;
+    width: 500px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -27,11 +28,24 @@ body {
     border-radius: 10px;
 }
 
-.card:hover {
-    background-color: #696773;
-}
-
 .border-blue {
     border: 12px dotted #696773;
 }
 
+.btn {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #696773;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #272727;
+}
